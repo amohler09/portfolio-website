@@ -1990,6 +1990,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
+		background-image: linear-gradient(lightpink, rgba(44, 118, 153, 0.952));
 		-moz-transition: opacity 2s ease-in-out;
 		-webkit-transition: opacity 2s ease-in-out;
 		-ms-transition: opacity 2s ease-in-out;
@@ -2096,7 +2097,7 @@ input, select, textarea {
 	}
 
 		#banner .button {
-			color: #35b882;
+			color: rgba(44, 118, 153, 0.952);
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
