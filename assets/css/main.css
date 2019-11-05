@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/crystalbkgd.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -160,7 +160,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: #35b88f;
+		color: purple;
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
 		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
@@ -1773,7 +1773,7 @@ input, select, textarea {
 		button.style2,
 		.button.style2 {
 			color: #3a3939;
-			background: #fff;
+			background-image: linear-gradient(to right, rgb(255, 166, 0) , rgba(178, 95, 247, 0.774));
 			box-shadow: inset 0 0 0 1px #fff;
 		}
 
@@ -1841,8 +1841,9 @@ input, select, textarea {
 		}
 
 		.box.style1 {
-			background: #fff;
+			background: rgba(152, 93, 219, 0.404);
 			padding: 3em;
+			color: white;
 		}
 
 			.box.style1 .image {
@@ -1990,7 +1991,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-image: linear-gradient(lightpink, rgba(44, 118, 153, 0.952));
+		background-image: linear-gradient(rgb(216, 63, 147), rgba(44, 118, 153, 0.952));
 		-moz-transition: opacity 2s ease-in-out;
 		-webkit-transition: opacity 2s ease-in-out;
 		-ms-transition: opacity 2s ease-in-out;
@@ -2087,17 +2088,17 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		color: #fff;
+		color: rgb(255, 255, 255);
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background: #35b88f url("../../Images/amethyst.jpg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
 	}
 
 		#banner .button {
-			color: rgba(44, 118, 153, 0.952);
+			color: #rgba(44, 118, 153, 0.952);
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
