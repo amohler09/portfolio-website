@@ -1908,6 +1908,11 @@ input, select, textarea {
 					padding: 0;
 				}
 
+				.box.style2 header sup{
+					font-size: .75rem;
+				}
+				
+
 			.box.style2 .inner {
 				position: relative;
 				padding: 40px 0 0px 0;
@@ -2033,6 +2038,16 @@ input, select, textarea {
 					border-top: solid 1px rgba(255, 255, 255, 0.5);
 					margin: 4px 0 0.8em 0;
 				}
+		#header header span{
+			color: rgb(255, 166, 0);
+		}
+		#header header img{
+			float: right;
+			justify-content: flex-end;
+			width: 20%;
+			margin-top: -6%;
+			margin-right: 17%;
+		}
 
 		#header footer {
 			-moz-transition: opacity 2s ease-in-out, -moz-transform 1s ease-in-out;
